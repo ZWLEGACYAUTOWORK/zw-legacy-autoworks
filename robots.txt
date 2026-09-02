@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zwlegacyautowork.github.io/zw-legacy-autoworks/sitemap.xml
