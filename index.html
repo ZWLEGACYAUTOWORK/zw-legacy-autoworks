@@ -1,51 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta name="google-site-verification" content="IZe6mU-_AsUEhX7i4yfQ3ragSCrieamJYlil98qJncA" />
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>ZW Legacy Autoworks | Custom Builds, Restorations & Mechanical Work</title>
-
-<meta name="description" content="ZW Legacy Autoworks in Germiston, Gauteng. Custom car builds, restorations, mechanical work and detailing. Built from legacy. Driven by vision.">
-
-<meta name="keywords" content="ZW Legacy Autoworks, custom car builds Germiston, car restorations Germiston, mechanic Germiston, car detailing Germiston, custom cars Gauteng">
-
-<meta name="author" content="ZW Legacy Autoworks">
-
 <meta name="robots" content="index, follow">
-
 <link rel="canonical" href="https://zwlegacyautowork.github.io/zw-legacy-autoworks/">
-
 <meta property="og:title" content="ZW Legacy Autoworks">
 <meta property="og:description" content="Custom builds, restorations, mechanical work and detailing in Germiston, Gauteng.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://zwlegacyautowork.github.io/zw-legacy-autoworks/">
-
-<meta name="twitter:card" content="summary_large_image">
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "AutomotiveBusiness",
-  "name": "ZW Legacy Autoworks",
-  "description": "Custom builds, restorations, mechanical work and detailing.",
-  "url": "https://zwlegacyautowork.github.io/zw-legacy-autoworks/",
-  "telephone": "+27 71 552 6023",
-  "email": "zwlegacyautoworks@gmail.com",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Germiston",
-    "addressRegion": "Gauteng",
-    "addressCountry": "ZA"
-  },
-  "sameAs": [
-    "https://instagram.com/zw_legacy_autoworks"
-  ]
-}
-</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZW Legacy Autoworks | Buy • Build • Sell</title>
+<meta name="description" content="ZW Legacy Autoworks — custom builds, restorations, mechanical work and detailing in Germiston, Gauteng.">
 <style>
 :root{
   --bg:#050505; --panel:#0d0d0f; --panel2:#131316; --red:#e10d16;
@@ -189,6 +155,26 @@ footer{padding:35px 0;border-top:1px solid var(--line);font-size:11px;letter-spa
  .gallery{display:grid;grid-template-columns:1fr;grid-auto-rows:260px}.g{grid-column:auto!important;grid-row:auto!important}
  .form{grid-template-columns:1fr}.form textarea,.full{grid-column:auto}.contact-card{grid-template-columns:1fr;padding:30px}.section-head{display:block}
 }
+
+/* V2 */
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.96);z-index:5000;display:none;align-items:center;justify-content:center;padding:70px 70px 45px}
+.lightbox.open{display:flex}.lightbox img{max-width:94vw;max-height:84vh;object-fit:contain}
+.lb-close,.lb-prev,.lb-next{position:absolute;background:#09090a;color:#fff;border:1px solid rgba(255,255,255,.2);cursor:pointer;font-size:25px;display:grid;place-items:center}
+.lb-close:hover,.lb-prev:hover,.lb-next:hover{background:var(--red)}.lb-close{right:22px;top:22px;width:50px;height:50px}
+.lb-prev,.lb-next{top:50%;transform:translateY(-50%);width:52px;height:70px}.lb-prev{left:15px}.lb-next{right:15px}
+.lb-caption{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#bbb}
+.gallery .g,.timeline .stage{cursor:zoom-in}
+.build-section{background:linear-gradient(135deg,#070708,#100405)}
+.build-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;align-items:start}
+.build-points{display:grid;gap:10px;margin-top:30px}.build-point{border-left:2px solid var(--red);padding:12px 16px;background:rgba(255,255,255,.025);font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#c6c6ca}
+.build-form{display:grid;grid-template-columns:1fr 1fr;gap:12px;background:#09090a;padding:28px;border:1px solid var(--line);box-shadow:var(--shadow)}
+.build-form input,.build-form textarea,.build-form select{width:100%;background:#050505;border:1px solid #29292d;padding:15px;color:#fff;outline:none}
+.build-form input:focus,.build-form textarea:focus,.build-form select:focus{border-color:var(--red)}
+.build-form textarea{grid-column:1/-1;min-height:135px;resize:vertical}.build-form .full{grid-column:1/-1}
+.form-title{grid-column:1/-1;margin-bottom:4px;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--red)}
+@media(max-width:1000px){.build-grid{grid-template-columns:1fr}.links.mobile-open{display:flex!important;position:fixed;left:0;right:0;top:76px;background:rgba(3,3,4,.98);padding:28px 20px;flex-direction:column;align-items:center;border-bottom:1px solid var(--line)}.links.mobile-open a{font-size:14px;padding:8px}}
+@media(max-width:650px){.build-form{grid-template-columns:1fr;padding:20px}.build-form textarea,.build-form .full,.form-title{grid-column:auto}.lightbox{padding:70px 10px 60px}.lb-prev,.lb-next{width:44px;height:60px}}
+
 </style>
 </head>
 <body>
@@ -205,10 +191,10 @@ footer{padding:35px 0;border-top:1px solid var(--line);font-size:11px;letter-spa
   <div class="wrap nav">
     <a class="brand" href="#home">ZW <b>LEGACY</b> AUTOWORKS</a>
     <div class="links">
-      <a href="#services">Services</a><a href="#project">Project 001</a><a href="#gallery">Gallery</a><a href="#sell">Sell Your Car</a><a href="#contact">Contact</a>
+      <a href="#services">Services</a><a href="#build">Start Your Build</a><a href="#project">Project 001</a><a href="#gallery">Gallery</a><a href="#sell">Sell Your Car</a><a href="#contact">Contact</a>
     </div>
     <a class="nav-cta" href="#contact">Start a build</a>
-    <button class="menu" onclick="document.querySelector('.links').style.display='flex'">☰</button>
+    <button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
   </div>
 </nav>
 
@@ -244,6 +230,21 @@ BUY <b>•</b> BUILD <b>•</b> SELL <b>•</b> RESTORE <b>•</b> DETAIL <b>•
   </div>
 </div>
 </section>
+
+
+<section class="build-section" id="build">
+<div class="wrap build-grid">
+<div class="reveal"><div class="eyebrow">Your car. Your vision.</div><h2>START YOUR<br><span class="red">BUILD.</span></h2>
+<p>Tell ZW Legacy Autoworks what you want to do with your car. This creates a ready-to-send WhatsApp enquiry.</p>
+<div class="build-points"><div class="build-point">Custom builds</div><div class="build-point">Restorations</div><div class="build-point">Mechanical work</div><div class="build-point">Detailing</div></div></div>
+<form class="build-form reveal" onsubmit="sendBuildWhatsApp(event)">
+<div class="form-title">Build enquiry / WhatsApp</div>
+<input id="buildName" required placeholder="Your name"><input id="buildPhone" required placeholder="Phone number">
+<select id="buildService" required><option value="">Choose a service</option><option>Custom Build</option><option>Restoration</option><option>Mechanical Work</option><option>Detailing</option></select>
+<input id="buildVehicle" required placeholder="Vehicle make & model"><input id="buildYear" placeholder="Vehicle year"><input id="buildLocation" placeholder="Your area / location">
+<textarea id="buildVision" required placeholder="Tell us what you want done to the vehicle..."></textarea>
+<button class="btn primary full" type="submit">Start my build on WhatsApp →</button>
+</form></div></section>
 
 <section class="project" id="project">
 <div class="wrap">
@@ -312,9 +313,9 @@ BUY <b>•</b> BUILD <b>•</b> SELL <b>•</b> RESTORE <b>•</b> DETAIL <b>•
     <div class="eyebrow">Have a car to move?</div>
     <h2>SELL YOUR<br><span class="red">VEHICLE.</span></h2>
     <p>Tell us what you have. Whether it is a project, a runner or something with potential, send the details and we can talk.</p>
-    <p class="note">This demo form opens your email app. Later, it can be connected to a proper online form or database.</p>
+    <p class="note">This form prepares your vehicle details as a WhatsApp message to ZW Legacy Autoworks.</p>
   </div>
-  <form class="form reveal" onsubmit="sendVehicle(event)">
+  <form class="form reveal" onsubmit="sendVehicleWhatsApp(event)">
     <input id="name" required placeholder="Your name">
     <input id="phone" required placeholder="Phone number">
     <input id="make" required placeholder="Vehicle make">
@@ -322,7 +323,7 @@ BUY <b>•</b> BUILD <b>•</b> SELL <b>•</b> RESTORE <b>•</b> DETAIL <b>•
     <input id="year" placeholder="Year">
     <input id="price" placeholder="Asking price">
     <textarea id="details" placeholder="Tell us about the car, condition, mileage, work needed, etc."></textarea>
-    <button class="btn primary full" type="submit">Send vehicle details →</button>
+    <button class="btn primary full" type="submit">Send on WhatsApp →</button>
   </form>
 </div>
 </section>
@@ -376,21 +377,42 @@ compare.addEventListener("touchstart",e=>{dragging=true;moveCompare(e.touches[0]
 compare.addEventListener("touchmove",e=>{if(dragging)moveCompare(e.touches[0].clientX)},{passive:true});
 compare.addEventListener("touchend",()=>dragging=false);
 
-function sendVehicle(e){
-  e.preventDefault();
-  const subject=encodeURIComponent("Vehicle Submission - ZW Legacy Autoworks");
-  const body=encodeURIComponent(
-`Name: ${name.value}
-Phone: ${phone.value}
-Make: ${make.value}
-Model: ${model.value}
-Year: ${year.value}
-Asking Price: ${price.value}
+
+
+const menuBtn=document.getElementById("menuBtn"),navLinks=document.querySelector(".links");
+if(menuBtn&&navLinks){menuBtn.addEventListener("click",()=>{navLinks.classList.toggle("mobile-open");menuBtn.textContent=navLinks.classList.contains("mobile-open")?"✕":"☰"});navLinks.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{navLinks.classList.remove("mobile-open");menuBtn.textContent="☰"}))}
+function openWA(message){window.open("https://wa.me/27715526023?text="+encodeURIComponent(message),"_blank")}
+function sendBuildWhatsApp(e){e.preventDefault();openWA(`ZW LEGACY AUTOWORKS - BUILD ENQUIRY
+
+Name: ${document.getElementById("buildName").value}
+Phone: ${document.getElementById("buildPhone").value}
+Service: ${document.getElementById("buildService").value}
+Vehicle: ${document.getElementById("buildVehicle").value}
+Year: ${document.getElementById("buildYear").value}
+Area: ${document.getElementById("buildLocation").value}
+
+What I want done:
+${document.getElementById("buildVision").value}`)}
+function sendVehicleWhatsApp(e){e.preventDefault();openWA(`ZW LEGACY AUTOWORKS - VEHICLE FOR SALE
+
+Name: ${document.getElementById("name").value}
+Phone: ${document.getElementById("phone").value}
+Vehicle: ${document.getElementById("make").value} ${document.getElementById("model").value}
+Year: ${document.getElementById("year").value}
+Asking price: ${document.getElementById("price").value}
 
 Vehicle details:
-${details.value}`);
-  window.location.href=`mailto:zwlegacyautoworks@gmail.com?subject=${subject}&body=${body}`;
-}
+${document.getElementById("details").value}
+
+I can send vehicle photos here on WhatsApp.`)}
+const lb=document.createElement("div");lb.className="lightbox";lb.innerHTML=`<button class="lb-close">✕</button><button class="lb-prev">‹</button><img alt="ZW Legacy project photo"><button class="lb-next">›</button><div class="lb-caption">ZW Legacy Autoworks • Project 001</div>`;document.body.appendChild(lb);
+const lbImg=lb.querySelector("img"),galleryImages=[...document.querySelectorAll(".gallery img, .timeline img")];let currentImage=0;
+function showImage(i){currentImage=(i+galleryImages.length)%galleryImages.length;lbImg.src=galleryImages[currentImage].src;lb.classList.add("open");document.body.style.overflow="hidden"}
+galleryImages.forEach((img,i)=>img.addEventListener("click",()=>showImage(i)));
+function closeLB(){lb.classList.remove("open");document.body.style.overflow=""}
+lb.querySelector(".lb-close").onclick=closeLB;lb.querySelector(".lb-prev").onclick=()=>showImage(currentImage-1);lb.querySelector(".lb-next").onclick=()=>showImage(currentImage+1);lb.addEventListener("click",e=>{if(e.target===lb)closeLB()});
+document.addEventListener("keydown",e=>{if(!lb.classList.contains("open"))return;if(e.key==="Escape")closeLB();if(e.key==="ArrowLeft")showImage(currentImage-1);if(e.key==="ArrowRight")showImage(currentImage+1)});
+
 </script>
 </body>
 </html>
